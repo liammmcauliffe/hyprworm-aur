@@ -1,4 +1,4 @@
-# Maintainer: liammmcauliffe <liam@example.com>
+# Maintainer: liammmcauliffe <https://github.com/liammmcauliffe>
 pkgname=hyprworm
 pkgver=1.0.0
 pkgrel=1
@@ -9,7 +9,7 @@ license=('MIT')
 depends=('cjson')
 makedepends=('git' 'make' 'gcc')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/liammmcauliffe/hyprworm/archive/v$pkgver.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('c6f3e699632d5759558e96210790aac437cc3b5bce2d4e48ba26acc56f96aebc')
 
 build() {
     cd "$pkgname-$pkgver"
